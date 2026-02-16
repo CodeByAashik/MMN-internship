@@ -1,0 +1,30 @@
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #007acc;
+    color: white;
+    padding: 20px;
+    border-bottom: 3px solid #005f99;
+}
+
+.content {
+    margin: 30px auto;
+    padding: 20px;
+    width: 60%;
+    background-color: white;
+    border: 2px solid #ccc;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    margin-top: 20px;
+}
