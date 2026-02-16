@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Interactive Page</title>
+    <style>
+        #text {
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+
+    <p id="text">Hello World</p>
+    <button onclick="changeContent()">Click Me</button>
+
+    <script>
+        function changeContent() {
+            alert("Button Clicked!");
+            
+            var paragraph = document.getElementById("text");
+            
+            paragraph.innerHTML = "You clicked the button!";
+            
+            paragraph.style.color = "white";
+            paragraph.style.backgroundColor = "blue";
+        }
+    </script>
+
+</body>
+</html>
